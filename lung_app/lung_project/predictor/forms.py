@@ -1,0 +1,17 @@
+from django import forms
+class LungCancerForm(forms.Form):
+    GENDER = forms.ChoiceField(choices=[(1,"Male"),(0,"Female")])
+    AGE = forms.IntegerField(min_value=1, max_value=120)
+    SMOKING = forms.ChoiceField(choices=[(1,"Yes"),(0,"No")])
+    YELLOW_FINGERS = forms.ChoiceField(choices=[(1,"Yes"),(0,"No")])
+    ANXIETY = forms.ChoiceField(choices=[(1,"Yes"),(0,"No")])
+    PEER_PRESSURE = forms.ChoiceField(choices=[(1,"Yes"),(0,"No")])
+    CHRONIC_DISEASE = forms.ChoiceField(choices=[(1,"Yes"),(0,"No")])
+    FATIGUE = forms.ChoiceField(choices=[(1,"Yes"),(0,"No")])
+    CHEST_PAIN = forms.ChoiceField(choices=[(1,"Yes"),(0,"No")])
+    COUGHING = forms.ChoiceField(choices=[(1,"Yes"),(0,"No")])
+    ALCHOL_CONSUMING = forms.ChoiceField(choices=[(1,"Yes"),(0,"No")])
+    SWALLOWING_DIFFICULTY = forms.ChoiceField(choices=[(1,"Yes"),(0,"No")])
+    ALLERGY = forms.ChoiceField(choices=[(1,"Yes"),(0,"No")])
+    SHORTNESS_OF_BREDTH = forms.ChoiceField(choices=[(1,"Yes"),(0,"No")])
+    WHEEZING = forms.ChoiceField(choices=[(1,"Yes"),(0,"No")])

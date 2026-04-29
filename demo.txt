@@ -1,0 +1,8 @@
+Hello, python file handling 
+This is a file handling operation 
+file written sucessfully 
+file appended successfully new one
+file appended successfully new one
+file appended successfully new one
+file appended successfully new one
+file appended successfully new one

@@ -1,0 +1,3 @@
+Hello, python file handling 
+This is a file handling operation 
+file written sucessfully 
